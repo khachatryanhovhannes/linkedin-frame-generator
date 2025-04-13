@@ -58,13 +58,19 @@ export default function App() {
           </a>
         </div>
 
-        <div className="text-center">
+        <div className="text-center my-6">
+          <label
+            htmlFor="upload"
+            className="cursor-pointer inline-flex items-center gap-2 px-5 py-2 bg-blue-600 text-white text-sm font-medium rounded shadow hover:bg-blue-700 transition"
+          >
+            📤 Upload Your Photo
+          </label>
           <input
+            id="upload"
             type="file"
             accept="image/*"
             onChange={handleFileChange}
-            placeholder="Upload File"
-            className="text-sm text-gray-700"
+            className="hidden"
           />
         </div>
 
