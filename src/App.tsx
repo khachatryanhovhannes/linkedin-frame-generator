@@ -34,11 +34,29 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 font-sans">
-      <div className="max-w-5xl mx-auto space-y-8">
+    <div className="min-h-screen bg-gray-50 py-5 px-4 sm:px-6 lg:px-8 font-sans">
+      <div className="max-w-5xl mx-auto">
         <h1 className="text-3xl font-semibold text-center text-gray-800">
           LinkedIn Frame Generator
         </h1>
+        <div className="flex justify-center items-center py-3 gap-6 mt-4 mb-6 text-blue-700 font-medium text-lg">
+          <a
+            href="http://hovhanneskhachatryan.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            🌐 Visit My Website
+          </a>
+          <a
+            href="https://www.linkedin.com/in/khachatryan-hovhannes/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            💼 Connect on LinkedIn
+          </a>
+        </div>
 
         <div className="text-center">
           <input
